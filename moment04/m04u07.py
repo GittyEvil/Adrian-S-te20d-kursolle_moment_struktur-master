@@ -1,7 +1,7 @@
-förstatal=int(input)("säg ditt första tal")
-avslutandetal=int(input)("säg talet som loopen ska avslutas med")
-tal=int(input)("säg ett tal")
-avbryttal=int(input)("säg ett tal som ska bryta loop")
+förstatal=int(input("säg ditt första tal "))
+avslutandetal=int(input("säg talet som loopen ska avslutas med "))
+tal=int(input("säg ett tal "))
+avbryttal=int(input("säg ett tal som ska bryta loop "))
 
 
 nummer=förstatal -1 
