@@ -12,7 +12,8 @@ if sida1 == sida2:
 print("Höjden | Volymen")
 print("----------------")
 for x in range(1,11):
-    print(x, "|")
-    print(area*x)
+    print("   {}    | {} ".format(x, x*area))
+    #print(x, "|")
+    #print(area*x)
 
 #fixa så att det blir 1-10 på vänster med linjer i mitten och 25-250 på höger om linjerna.
