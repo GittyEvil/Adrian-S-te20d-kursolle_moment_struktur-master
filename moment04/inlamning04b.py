@@ -16,7 +16,7 @@ def kvadratspel():
         print("   {}    | {} ".format(x, x*area))
     
     köraigen=input("Vill du göra en beräkning till (ja/nej)?")
-    while köraigen == "ja":
+    if köraigen == "ja":
         kvadratspel()
     if köraigen == "nej": 
         print("kod avslutad")
