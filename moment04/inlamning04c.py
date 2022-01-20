@@ -16,6 +16,7 @@ def kvadratspel():
         sida1 == 10
 
     area = sida1 * sida2
+    print(area)
 
     if sida1 == sida2:
         print('båda sidorna är lika långa, därför är det en kvadrat.')
