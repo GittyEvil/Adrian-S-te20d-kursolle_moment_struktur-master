@@ -5,9 +5,10 @@ def kvadratspel():
     sida1= input('välj ett första tal upp till tio.')
 
     sida2= input('Välj ett andra tal upp till tio.')
-    #höjd = input("väl en siffra upp till tio för höjd")
+    höjd = input("väl en siffra upp till tio för höjd")
     lagrainfo.append(sida1)
     lagrainfo.append(sida2)
+    lagrainfo.append(höjd)
     print(lagrainfo)
 
 
